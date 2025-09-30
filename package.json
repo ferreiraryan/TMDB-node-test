@@ -1,0 +1,27 @@
+{
+  "name": "catalogo-filmes-tmdb",
+  "version": "1.0.0",
+  "description": "App de linha de comando para buscar filmes e séries na API do TMDB.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "tmdb",
+    "api"
+  ],
+  "author": "Ryan Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.18",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
